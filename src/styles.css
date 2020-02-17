@@ -1,0 +1,58 @@
+body{
+  background-color: #0079bf;
+  font-family: sans-serif;
+  
+}
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Board{
+height: 400px;
+
+}
+.Board::-webkit-scrollbar-thumb {
+  background-color: #66a3c7;
+  border: 0.8rem solid #0079bf;
+  border-top-width: 0;
+}
+
+.masthead {
+  flex-basis: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.8rem;
+  background-color: #0067a3;
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+.masthead .btn {
+  background-color: #4c94be;
+  border-radius: 0.3rem;
+  transition: background-color 150ms;
+}
+
+.masthead .btn:hover {
+  background-color: #3385b5;
+}
+
+.logo {
+  flex: 1;
+  font-family: "Courgette", cursive;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 2rem;
+  transition: color 150ms;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
