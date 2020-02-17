@@ -1,0 +1,140 @@
+{
+  "lanes": [
+    {
+      "id": "INCOMING",
+      "title": "Incoming Tasks",
+      "label": "+",
+      "style": {
+        "width": 260
+        
+      },
+      "cards": [
+        {
+          "id": "I1",
+          "title": "Issue on Safari",
+          "label": "15 mins",
+          "description": "Lightbox loading issue on Safari"
+        },
+        {
+          "id": "Plan2",
+          "title": "Notifications Bug",
+          "label": "10 mins",
+          "description": "Notifications not sending"
+        },
+        {
+          "id": "Plan3",
+          "title": "Drag and drop ",
+          "label": "30 mins",
+          "description": "Drag and drop issues in Chrome"
+        },
+        {
+          "id": "Plan4",
+          "title": "Download icon",
+          "label": "5 mins",
+          "description": "Download icon rendering issue"
+        }
+      ]
+    },
+    {
+      "id": "WIP",
+      "title": "In Progress",
+      "label": "10/20",
+      "style": {
+        "width": 260
+      },
+      "cards": [
+    {    
+          "id": "Wip1",
+          "title": "Localization",
+          "label": "10 mins",
+          "description": "Localization of project1302 anf bug fix"
+        },
+        {    
+          "id": "Wip2",
+          "title": "Enable ",
+          "label": "35 mins",
+          "description": "Enable all options for testing"
+        },
+        {    
+          "id": "Wip2",
+          "title": "Code Splitting ",
+          "label": "20 mins",
+          "description": "Enable all options for testing"
+        }
+      ]
+    },
+    {
+      "id": "QA",
+      "title": "Testing",
+      "label": "0/0",
+      "style": {
+        "width": 260
+      },
+      "cards": [
+        {    
+          "id": "QA1",
+          "title": "Performance Testing",
+          "label": "30 mins",
+          "description": "chat app Performance Testing"
+        },
+        {    
+          "id": "QA2",
+          "title": "Backend Integration",
+          "label": "60 mins",
+          "description": "Database backend Integration testing"
+        },
+        {    
+          "id": "QA3",
+          "title": "Chat app Interface",
+          "label": "10 mins",
+          "description": "UI/Ux of chat app testing"
+        },
+        {    
+          "id": "QA4",
+          "title": "Spreadsheet Nodejs",
+          "label": "15 mins",
+          "description": "Nodejs spreadsheet modules"
+        }
+      ]
+    },
+    {
+      "id": "COMPLETED",
+      "title": "Completed",
+      "style": {
+        "width": 260
+      },
+      "label": "2/5",
+      "cards": [
+        {
+          "id": "Completed1",
+          "title": "FormBuilder",
+          "label": "15 mins",
+          "description": "Use Headspace app"
+        },
+        {
+          "id": "Completed2",
+          "title": "Maintain Daily Journal",
+          "label": "15 mins",
+          "description": "Use Spreadsheet for now"
+        }
+      ]
+    },
+    {
+      "id": "REPEAT",
+      "title": "Repeat",
+      "style": {
+        "width": 280
+      },
+      "label": "1/1",
+      "cards": [
+        {
+          "id": "Repeat1",
+          "title": "Maintain Daily Journal",
+          "label": "30 mins",
+          "description": "Track Daily Journal"
+        }
+      ]
+    }
+    
+  ]
+}
