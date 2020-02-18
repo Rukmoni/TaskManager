@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
-import {CardWrapper,CardHeader,CardTitle,CardRightContent,Detail} from './cardstyle';
+import { CardWrapper, CardHeader, CardTitle, CardRightContent, Detail, AvatarImg,CardFooter,FooterLeft,FooterRight } from './cardstyle';
+import {faUserCircle,faCogs} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 class Card1 extends Component { 
@@ -13,20 +15,29 @@ class Card1 extends Component {
         onDelete,
         className,
         id,
+        img,
         title,
+        color,
         label,
         description,
         tags,
         cardDraggable
       } = this.props
     return ( 
-        <CardWrapper>
+        <CardWrapper color={color}>
             <CardHeader>
           <CardTitle draggable={cardDraggable}>{title}</CardTitle>
-          <CardRightContent>{label}</CardRightContent>
-          
+          <CardRightContent>{img?
+            <AvatarImg src={img}/>
+             
+           :<FontAwesomeIcon icon={faUserCircle} />
+          }</CardRightContent>
+         
         </CardHeader>
+       
         <Detail>{description}</Detail>
+        <CardFooter><FooterLeft></FooterLeft><FooterRight><FontAwesomeIcon icon={faCogs} /></FooterRight></CardFooter>
+        
         </CardWrapper>
      );
     }

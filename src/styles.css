@@ -26,16 +26,16 @@ background-color:rgb(242, 244, 247);
   box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
 
-.masthead .btn {
-  background-color: #4c94be;
-  border-radius: 0.3rem;
-  transition: background-color 150ms;
+.masthead .left{
+ width:90%
 }
 
-.masthead .btn:hover {
-  background-color: #3385b5;
-}
-
+.masthead .right{
+  width:10%;
+  align-items: left;
+  justify-content: end;
+  float:right;
+ }
 .logo {
   flex: 1;
   font-family: "Courgette", cursive;

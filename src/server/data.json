@@ -13,25 +13,34 @@
           "id": "I1",
           "title": "Issue on Safari",
           "label": "15 mins",
-          "description": "Lightbox loading issue on Safari"
+          "description": "Lightbox loading issue on Safari",
+          "img":"https://images.unsplash.com/photo-1516756587022-7891ad56a8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+          "color":"#ff0000"
+
         },
         {
           "id": "Plan2",
           "title": "Notifications Bug",
           "label": "10 mins",
-          "description": "Notifications not sending"
+          "description": "Notifications not sending",
+          "img":"https://randomuser.me/api/portraits/men/20.jpg",
+          "color":"orange"
         },
         {
           "id": "Plan3",
           "title": "Drag and drop ",
           "label": "30 mins",
-          "description": "Drag and drop issues in Chrome"
+          "description": "Drag and drop issues in Chrome",
+          "img":"https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+          "color":"green"
         },
         {
           "id": "Plan4",
           "title": "Download icon",
           "label": "5 mins",
-          "description": "Download icon rendering issue"
+          "description": "Download icon rendering issue",
+          "img":"https://randomuser.me/api/portraits/men/35.jpg",
+          "color":"orange"
         }
       ]
     },
@@ -47,19 +56,24 @@
           "id": "Wip1",
           "title": "Localization",
           "label": "10 mins",
-          "description": "Localization of project1302 anf bug fix"
+          "description": "Localization of project1302 anf bug fix",
+          "img":"https://randomuser.me/api/portraits/women/38.jpg",
+          "color":"green"
         },
         {    
           "id": "Wip2",
           "title": "Enable ",
           "label": "35 mins",
-          "description": "Enable all options for testing"
+          "description": "Enable all options for testing",
+          "img":"https://randomuser.me/api/portraits/women/32.jpg"
         },
         {    
           "id": "Wip2",
           "title": "Code Splitting ",
           "label": "20 mins",
-          "description": "Enable all options for testing"
+          "description": "Enable all options for testing",
+          "img":"https://randomuser.me/api/portraits/men/35.jpg",
+          "color":"orange"
         }
       ]
     },
@@ -75,25 +89,32 @@
           "id": "QA1",
           "title": "Performance Testing",
           "label": "30 mins",
-          "description": "chat app Performance Testing"
+          "description": "chat app Performance Testing",
+          "color":"orange"
         },
         {    
           "id": "QA2",
           "title": "Backend Integration",
           "label": "60 mins",
-          "description": "Database backend Integration testing"
+          "description": "Database backend Integration testing",
+          "img":"https://randomuser.me/api/portraits/women/35.jpg",
+          "color":"green"
         },
         {    
           "id": "QA3",
           "title": "Chat app Interface",
           "label": "10 mins",
-          "description": "UI/Ux of chat app testing"
+          "description": "UI/Ux of chat app testing",
+          "img":"https://randomuser.me/api/portraits/women/84.jpg",
+          "color":"red"
         },
         {    
           "id": "QA4",
           "title": "Spreadsheet Nodejs",
           "label": "15 mins",
-          "description": "Nodejs spreadsheet modules"
+          "description": "Nodejs spreadsheet modules",
+          "img":"https://randomuser.me/api/portraits/men/45.jpg",
+          "color":"green"
         }
       ]
     },
@@ -109,13 +130,16 @@
           "id": "Completed1",
           "title": "FormBuilder",
           "label": "15 mins",
-          "description": "Use Headspace app"
+          "description": "Use Headspace app",
+          "img":"https://randomuser.me/api/portraits/men/12.jpg",
+          "color":"green"
         },
         {
           "id": "Completed2",
           "title": "Maintain Daily Journal",
           "label": "15 mins",
-          "description": "Use Spreadsheet for now"
+          "description": "Use Spreadsheet for now",
+          "color":"red"
         }
       ]
     },
@@ -131,7 +155,8 @@
           "id": "Repeat1",
           "title": "Maintain Daily Journal",
           "label": "30 mins",
-          "description": "Track Daily Journal"
+          "description": "Track Daily Journal",
+          "color":"red"
         }
       ]
     }
