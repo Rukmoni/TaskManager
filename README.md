@@ -8,9 +8,9 @@ Live Demo: https://ruks-taskboard.netlify.app/
 
 run below snippets in your terminal one be one
 
-##### git clone https://github.com/Rukmoni/github-readme-viewer.git
+##### git clone git@github.com:Rukmoni/TaskManager.git
 
-##### cd github-readme-viewer
+##### cd TaskManager
 
 ##### npm install
 
